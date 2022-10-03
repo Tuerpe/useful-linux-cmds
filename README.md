@@ -26,7 +26,7 @@ CoreDump is only availabe if you have build with dcmake_build = Debug.
 
 ## Lutris
 
-# DXVK HUD
+### DXVK HUD
 
 To enbale the DXVK_HUD: Configure > System options > Environment variables > Add
 
