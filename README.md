@@ -20,10 +20,23 @@ Advice
 `sudo coredumpctl debug [path] (usr/bin/...)`
 
 CoreDump is only availabe if you have build with dcmake_build = Debug.
-## Graphics
-### Which graphics is running atm ?
+
+
+# Graphics
+
+## Lutris
+
+# DXVK HUD
+
+To enbale the DXVK_HUD: Configure > System options > Environment variables > Add
+
+Key: `DXVK_HUD` Value: `devinfo,fps,frametimes,submissions,drawcalls,pipelines`
+
+## Which graphics is running atm ?
 
 `glxinfo|egrep "OpenGL vendor|OpenGL renderer"`
+
+
 
 # After Reinstall
 
