@@ -1,14 +1,31 @@
-# useful-linux-cmds
+# Table of Contents
 
-# Infos
-## Debug
-### Journalctl
+1. [Introduction](#Introduction)
+2. [Get information](#Get-information)
+	2.1 [Debugging](#Debugging)
+		2.1.1 [journalctl](#jounalctl)
+		2.1.2 [coredump](#coredump)
+	2.2 [Graphics](#Which-graphics is running atm?)
+3. [After-a-reinstall](#After-a-reinstall)
+	3.1 [Lutris](#Lutris)
 
-jounalctl collects all kind of massages of the system. Refer to this if you want to know whats going on in your system.
+# Introduction
+
+# Get-information
+
+This section is all about on how to get informations about your system.
+
+## Debugging
+
+### journalctl
+
+**jounalctl** collects all kind of massages of the system. Refer to this if you want to know whats going on in your system.
 
 **Use**:
 `journalctl`
-Options (Highly advice you use --since (hh:mm) otherwise its too much)
+Options (Highly advice you use --since (hh:mm) otherwise its too much).
+
+Some options:
 `-o short --user --since --no-page(ing) -u [servicename]`
 
 Advice
@@ -21,24 +38,13 @@ Advice
 
 CoreDump is only availabe if you have build with dcmake_build = Debug.
 
+## Graphics
 
-# Graphics
-
-## Lutris
-
-### DXVK HUD
-
-To enbale the DXVK_HUD: Configure > System options > Environment variables > Add
-
-Key: `DXVK_HUD` Value: `devinfo,fps,frametimes,submissions,drawcalls,pipelines`
-
-## Which graphics is running atm ?
+### Which graphics is running atm ?
 
 `glxinfo|egrep "OpenGL vendor|OpenGL renderer"`
 
-
-
-# After Reinstall
+# After a reinstall
 
 ## Lutris
 
