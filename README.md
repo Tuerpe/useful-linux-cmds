@@ -9,9 +9,10 @@
 - [After-a-reinstall](#After-a-reinstall)
 	- [Lutris](#Lutris)
 
-1. List item
-
 # Introduction
+
+This is WIP! Here are some commands than can be helpful when using linux. Also some advices here and there. Im farely new to linux, if you find mistakes it would be nice if you tell me.
+
 
 # Get-information
 
@@ -21,13 +22,14 @@ This section is all about on how to get informations about your system.
 
 ### journalctl
 
-**jounalctl** collects all kind of massages of the system. Refer to this if you want to know whats going on in your system.
+The journal collects all kind of massages from the system. Refer to this if you want to know whats going on in your system.
 
 **Use**:
 `journalctl`
 Options (Highly advice you use --since (hh:mm) otherwise its too much).
 
-Some options:
+Some options: Highly advice you use --since (hh:mm) otherwise its too much).
+
 `-o short --user --since --no-page(ing) -u [servicename]`
 
 Advice
