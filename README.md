@@ -5,7 +5,7 @@
 	2.1 [Debugging](#Debugging)
 		2.1.1 [journalctl](#jounalctl)
 		2.1.2 [coredump](#coredump)
-	2.2 [Graphics](#Which-graphics is running atm?)
+	2.2 [Graphics](#Which-graphics-is-running-atm?)
 3. [After-a-reinstall](#After-a-reinstall)
 	3.1 [Lutris](#Lutris)
 
@@ -40,7 +40,7 @@ CoreDump is only availabe if you have build with dcmake_build = Debug.
 
 ## Graphics
 
-### Which graphics is running atm ?
+### Which-graphics-is-running-atm ?
 
 `glxinfo|egrep "OpenGL vendor|OpenGL renderer"`
 
