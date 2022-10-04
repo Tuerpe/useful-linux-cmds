@@ -1,13 +1,15 @@
 # Table of Contents
 
-1. [Introduction](#Introduction)
-2. [Get information](#Get-information)
-	2.1 [Debugging](#Debugging)
-		2.1.1 [journalctl](#jounalctl)
-		2.1.2 [coredump](#coredump)
-	2.2 [Graphics](#Which-graphics-is-running-atm?)
-3. [After-a-reinstall](#After-a-reinstall)
-	3.1 [Lutris](#Lutris)
+- [Introduction](#Introduction)
+- [Get information](#Get-information)
+	- [Debugging](#Debugging)
+		- [journalctl](#jounalctl)
+		- [coredump](#coredump)
+	- [Graphics](#Which-graphics-is-running-atm?)
+- [After-a-reinstall](#After-a-reinstall)
+	- [Lutris](#Lutris)
+
+1. List item
 
 # Introduction
 
