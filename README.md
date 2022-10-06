@@ -2,6 +2,7 @@
 
 - [Introduction](#Introduction)
 - [Get information](#Get-information)
+	-[Hardware](#Hardware)
 	- [Debugging](#Debugging)
 		- [journalctl](#jounalctl)
 		- [coredump](#coredump)
@@ -17,6 +18,12 @@ This is WIP! Here are some commands than can be helpful when using linux. Also s
 # Get-information
 
 This section is all about on how to get informations about your system.
+
+## Hardware
+
+Mainboard Info:
+
+`sudo dmidecode -t 2`
 
 ## Debugging
 
